@@ -3,11 +3,12 @@
 
 using namespace std;
 
+#if 1
 int main(int argc, char const *argv[]) {
 
     string inFileName = "text.txt";
     ifstream inFile;
-    inFile.open(inFileName.c_str());
+    inFile.open(inFileName);
 
     if(inFile.is_open()){
 
@@ -27,3 +28,4 @@ int main(int argc, char const *argv[]) {
     std::cout << "hello babe" << '\n';
     return 0;
 }
+#endif
