@@ -22,6 +22,6 @@ int main(int argc, char const *argv[]) {
 
     std::cout << *p+2 << '\n';
 
-    std::cout << "hello babe" << '\n';
+    std::cout << "hello babe!" << '\n';
     return 0;
 }
