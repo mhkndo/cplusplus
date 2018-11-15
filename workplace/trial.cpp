@@ -12,7 +12,7 @@ void swap(vector<int> &A, int first, int second){
 
 
     cout<<"swap: "<<A.at(first)<<" "<<A.at(second)<<" : ";
-    for(vector<int>::iterator it=A.begin(); it!=A.end(); it++){
+    for(auto it=A.begin(); it!=A.end(); it++){
         cout<<*it<<" ";
     }
     cout<<endl;
@@ -66,7 +66,7 @@ int main(int argc, char const *argv[]) {
     quickSort(V,0,(V.size()-1));
 
     cout<<"Final Form: ";
-    for(vector<int>::iterator it=V.begin(); it!=V.end(); it++){
+    for(auto it=V.begin(); it!=V.end(); it++){
         cout<<*it<<" ";
     }
     cout<<endl;
