@@ -60,6 +60,7 @@ int main(int argc, char const *argv[]) {
 
     p.printAge(p.getAge());
 
+    cout<< "hello from mac"<<endl;
 
 
     std::cout << "hello babe!" << '\n';
